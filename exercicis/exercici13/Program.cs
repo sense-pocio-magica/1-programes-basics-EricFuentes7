@@ -17,6 +17,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Introdueix la data sense formatar: ");
+        string data = Console.ReadLine();
+        data = data.Insert(2, "/");
+        data = data.Insert(5, "/");
+
+        Console.WriteLine($"La data és {data}");
     }
 }

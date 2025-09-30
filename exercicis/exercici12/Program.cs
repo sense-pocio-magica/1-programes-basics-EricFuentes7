@@ -27,6 +27,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Introdueix el primer valor: ");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Introdueix el segon valor: ");
+        int num2 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine($"{num1} + {num2} = {num1 + num2}\n{num1} - {num2} = {num1 - num2}\n{num1} * {num2} = {num1 * num2}\n{num1} / {num2} = {num1 / num2}");
     }
 }
