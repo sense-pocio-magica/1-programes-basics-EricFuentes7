@@ -15,6 +15,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Inserta el número lleig: ");
+        double numeroLleig = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine($"el numero maravellós és: : {(numeroLleig - Math.Truncate(numeroLleig)):F2}");
     }
 }

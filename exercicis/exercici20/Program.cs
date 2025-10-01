@@ -12,6 +12,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        //No es la millor forma, però funciona.
+        Console.Write("Insereix un número de 3 xifres: ");
+        string numero = Console.ReadLine();
+        char primerNum = numero[0];
+        char segonNum = numero[1];
+        char tercerNum = numero[2];
+        int fin = Convert.ToInt32($"{tercerNum}{segonNum}{primerNum}");
+        
+        Console.WriteLine($"El numero invertit es {fin}");
     }
 }

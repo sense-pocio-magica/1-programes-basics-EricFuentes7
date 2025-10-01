@@ -10,7 +10,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        
+        Console.WriteLine("Introdueix els euros");
+        double euros = Convert.ToDouble(Console.ReadLine());
+        int pessetes = Convert.ToInt32(euros * 166.386);
+        Console.WriteLine($"El valor en pessetes és de: {pessetes:F0} pstes");
     }
-}
+} 

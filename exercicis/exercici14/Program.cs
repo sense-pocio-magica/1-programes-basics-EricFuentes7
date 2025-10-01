@@ -5,6 +5,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        string paraula = "Erico";
+        Console.WriteLine($"Primera lletra: {paraula[0]}");
+        Console.WriteLine($"Lletra del mig: {paraula[paraula.Length / 2]}");
+        Console.WriteLine($"Última lletra: {paraula[paraula.Length - 1]}");
+
     }
 }

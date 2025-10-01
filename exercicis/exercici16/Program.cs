@@ -16,6 +16,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Escriu la mitja de pràctiques (40%): ");
+        double practiques = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Escriu la mitja de exàmens (60%): ");
+        double examens = Convert.ToDouble(Console.ReadLine());
+        double resultado = practiques * 0.4 + examens * 0.6;
+        double final = Math.Round(resultado);
+
+        Console.WriteLine(final);
     }
 }
