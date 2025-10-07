@@ -7,6 +7,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Introduex els metres: ");
+        double peus = 3.28084 * (Convert.ToDouble(Console.ReadLine()));
+        Console.WriteLine($"El valor en peus és de: {peus} ft");
     }
 }
