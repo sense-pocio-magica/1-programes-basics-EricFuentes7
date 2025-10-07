@@ -23,7 +23,6 @@ class Program
         int horesIncrementar = Convert.ToInt32(Console.ReadLine());
 
         int horaResultat = (horaActual + horesIncrementar) % 12;
-        if (horaResultat == 0) { horaResultat = 12; }
 
         Console.WriteLine($"D'aquí {horesIncrementar} hora/es serán la/es {horaResultat}");
         

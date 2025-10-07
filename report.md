@@ -79,6 +79,49 @@ En aquesta captura podem veure el resultat de l'exercici 12, en el qual el que h
 
 ## Exercici 13:
 
-Aquest programa ja ha començat a ser una mica més difícil. El que fem es un Insert a l'string que ens ha passat l'usuari, insert a possició 2 i 5 (ja que com hem afegit un, en comptes de 4 es 5). I ho mostrem en terminal
+Aquest programa ja ha començat a ser una mica més difícil. El que fem es un Insert a l'string que ens ha passat l'usuari, insert a possició 2 i 5 (ja que com hem afegit un, en comptes de 4 es 5). I ho mostrem en terminal.
 
 ![exercici 13](/img/ex13.png)
+
+## Exercici 14:
+
+Aquest exercici l'he fet amb un valor fix, no un nom que l'usuari afegeixi.
+El que fa el codi es que primer detecta el caràcter en posició 0 de la variable, després el que fa es veure el caràcter del length / 2 - 1 per saber el del mig, i per ultim el mateix però sense dividir per 2, per saber l'últim. Fem el - 1 ja que [] comença per 0, mentres que el Length comená per 1.
+
+![exercici 14](/img/ex14.png)
+
+## Exercici 15:
+
+Aquest programa també l'he fet amb valors fixos. El que fa es seleccionar el primer caràcter del nom / cognom, i fa un ToUpper, després amb Substring afegeix el que falta a partir de la segona posició, per a que la primera sigui majuscula i les altres minuscules.
+
+![exercici 15](/img/ex15.png)
+
+## Exercici 16:
+
+En aquest programa el que fem es calcular la mitja de un tema per percentatje, es un petit càlcul per a assignar pes als valors entrats per l'usuari, i després el resultat es mostra.
+
+![exercici 16](/img/ex16.png)
+
+## Exercici 17:
+
+Aquest programa, com es pot veure, separa els decimals del numero enter, això ho he aconseguit truncant el valor i restant-lo, quedant-me nomès amb el número "maravellós" (també l'he arrodontit a 2 decimals).
+
+![exercici 17](/img/ex17.png)
+
+## Exercici 18:
+
+Aquest programa també ha utilitzat módul (%), ja que el que he fet es que al ingressar una hora i les hores a incrementar, es sumessin i amb mòdul de 24, poder saber quines son les restants.
+
+![exercici 18](/img/ex18.png)
+
+## Exercici 19:
+
+Aques programa es molt fàcil, com podem veure, imprimeix en consola la longitud en caràcters d'una paraula. Per fer això només hem de fer un Length i imprimir-ho.
+
+![exercici 19](/img/ex19.png)
+
+## Exercici 20:
+
+En aquesta captura es pot veure el resultat de l'últim exercici, consisteix en invertir un número de 3 xifres. Jo el que he fet es mantenir-lo com string i posar la posició 0 com la 2, i la 2 com la 0, i un cop fet, convertir-ho a int i imprimir.
+
+![exercici 20](/img/ex20.png)
